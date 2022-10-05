@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+/* navigation bar */
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #131313d9;
+    width: 100%;
+    height:12vh;
+    border-bottom: 2px solid #ffb320;
+}
+.sec1 .logo{
+    font-size: 1.5rem;
+    color: #ffb320;
+    cursor: pointer;
+    width: 15%;
+}
+div .menu{
+    width:52%;
+}
+div .menu ul{
+    list-style: none;
+    display: flex;
+}
+div .menu ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    font-size: 1.1rem;
+}
+div .menu ul li a:hover{
+    color:#ffb320;
+
+}
+div .button .btn1{
+    border: none;
+    padding:12px 20px;
+    background-color: #ffb320;
+    border-radius: 26px;
+    font-size: 0.8rem;
+}
+div .button .btn1:hover{
+    cursor: pointer;
+    outline: 2px solid #ffb320;
+    color: #ffb320;
+    background-color: rgba(0, 0, 0, 0);
+}
+/* ending */
+/* front page */
+.sec2{
+    width: 100%;
+    height: 120vh;
+    background-image:linear-gradient(to right , rgba(0, 0, 0, 0.575) , rgba(0, 0, 0, 0.542) ) , url(imges/bg.avif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.sec2 .sec{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    align-items:flex-start;
+    padding: 36vh 0 10vh 0;
+}
+.sec2 .sec h1{
+    font-size: 3.5rem;
+    color: white;
+}
+.sec2 .sec h1 b{
+    color:#ffb320;
+}
+.sec2 .sec p{
+    padding: 20px 0 20px 0;
+    color: rgba(255, 255, 255, 0.739);
+}
+.sec2 button{
+    padding: 10px 20px;
+    margin-top: 40px;
+    border: none;
+    background-color: #ffb320;
+    border-radius: 26px;
+    font-size: 1.1rem;
+}
+.sec2 button:hover{
+    cursor: pointer;
+    outline: 2px solid #ffb320;
+    color: #ffb320;
+    background-color: rgba(0, 0, 0, 0);
+}
+/* end */
+@media only screen and (min-width:900px) and (max-width:1248px){
+      .sec1 .logo{
+           font-size:1rem;
+      }
+      .sec1 .menu ul li a{
+        font-size:0.6rem;
+      }
+      .sec1 .menu{
+        width:51%;
+      }
+      .sec2 .sec h1{
+        font-size:2.5rem;
+      }
+
+      .sec2{
+        height:120vh;
+      }
+}
+@media only screen and (min-width:1050px) and (max-width:1248px){
+    .sec1 .menu{
+        width: 46%;
+    }
+}
+@media only screen and (min-width:350px) and (max-width:450px){
+    .sec1{
+        height: 8vh;
+        width: 100%;
+    }
+    .sec1 .logo h4{
+       font-size:0.5rem;
+       
+    }
+   .sec1 .button .btn1{
+
+        padding:3px 4px;
+        font-size: 0.4rem;
+    }
+    .sec1 button .btn1:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .sec1 .menu ul li a{
+        font-size: 0.3rem;
+        padding:0px 5px;
+    }
+    .sec2{
+        height:80vh;
+    }
+    .sec2 .sec{
+        width: 90%;
+        padding: 23vh 2px;
+        margin-left: 5%;
+    }
+    .sec2 .sec p{
+        font-size: 0.3rem;
+        padding: 4vh 0;
+    }
+    .sec2 .sec h1{
+        font-size: 1.4rem;
+    }
+    .sec2 .sec button{
+        padding:4px 15px;
+        font-size: 0.4rem;
+        margin-top: 3vh;
+    }
+    .sec2 .sec button:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+     
+}
+@media only screen and (min-width:450px) and (max-width:650px){
+    .sec1{
+        height: auto;
+        width: 100%;
+    }
+    .sec1 .logo h4{
+       font-size:0.5rem;
+      
+       display: inline-block;
+    }
+    .sec1 .menu{
+       
+        display: inline-block;
+    }
+    .sec1 .button .btn1{
+        display: inline-block;
+        padding:4px 5px;
+        font-size: 0.4rem;
+    }
+    .sec1 button .btn1:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .sec1 .menu ul li a{
+        font-size: 0.4rem;
+        padding:1px 5px;
+    }
+    .sec2{
+        height:100vh;
+    }
+    .sec2 .sec{
+        width: 100%;
+        padding: 25vh 2px;
+        margin-left: 0%;
+    }
+    .sec2 .sec p{
+        font-size: 0.7rem;
+        padding: 10vh 0;
+    }
+    .sec2 .sec h1{
+        font-size: 1.9rem;
+    }
+    .sec2 .sec button{
+        padding:4px 15px;
+        font-size: 0.6rem;
+    }
+    .sec2 .sec button:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+     
+}
+@media only screen and (min-width:650px) and (max-width:850px){
+    .sec1{
+        height: 10vh;
+        width: 100%;
+    }
+    .sec1 .logo h4{
+       font-size:0.7rem;
+    }
+    .sec1 .button .btn1{
+        padding:4px 5px;
+        font-size: 0.5rem;
+    }
+    .sec1 button .btn1:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .sec1 .menu ul li a{
+        font-size: 0.6rem;
+        padding:1px 8px;
+    }
+    .sec2{
+        height:100vh;
+    }
+    .sec2 .sec{
+        width: 100%;
+        padding: 25vh 2px;
+        margin-left: 0%;
+    }
+    .sec2 .sec p{
+        font-size: 0.9rem;
+        padding: 10vh 0;
+    }
+    .sec2 .sec h1{
+        font-size: 2.4rem;
+    }
+    .sec2 .sec button{
+        padding:4px 15px;
+        font-size: 0.7rem;
+    }
+    .sec2 .sec button:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media only screen and (min-width:850px) and (max-width:950px){
+    .sec1{
+        height: 10vh;
+        width: 100%;
+    }
+    .sec1 .logo h4{
+       font-size:0.9rem;
+    }
+    .sec1 .button .btn1{
+        padding:4px 5px;
+        font-size: 0.6rem;
+    }
+    .sec1 button .btn1:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .sec1 .menu ul li a{
+        font-size: 0.7rem;
+        padding:1px 15px;
+    }
+    .sec2{
+        height:110vh;
+    }
+    .sec2 .sec{
+        width: 90%;
+        padding: 25vh 2px;
+        margin-left: 5%;
+    }
+    .sec2 .sec p{
+        font-size: 1rem;
+        padding: 10vh 0;
+    }
+    .sec2 .sec h1{
+        font-size: 2.5rem;
+    }
+    .sec2 .sec button{
+        padding:4px 15px;
+        font-size: 0.8rem;
+    }
+    .sec2 .sec button:hover{
+        outline: 2px solid #ffb320;
+        color: #ffb320;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+
+
+
